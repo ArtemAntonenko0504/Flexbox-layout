@@ -1,0 +1,39 @@
+.grey{
+    background-color: rgb(199, 192, 192);
+    width: 15rem;
+    height: 21rem;
+}
+.card{
+    background-color: rgb(182, 182, 252);
+    width: 32%;
+    height: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    gap: 1%;
+    padding: 7%;
+    
+}
+.blue_cards{
+    width: 21rem;
+    height: 21rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
